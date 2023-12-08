@@ -35,11 +35,11 @@
     <hr>
     <h2>All News</h2>
 
-    <div hx-get="/news" hx-trigger="click" hx-target="#response">Click Me</div>
+    <div hx-get="/news" hx-trigger="every 2s"></div>
 
 
 
-    <div id="response">Show me here</div>
+    {{-- <div id="response">Show me here</div> --}}
 
 
 
